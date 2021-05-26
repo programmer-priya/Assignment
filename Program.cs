@@ -18,7 +18,7 @@ namespace AssignmentApp
             {
                 await Task.Run(() =>
                 {
-                    for (int i = 0; i < 100; i++)
+                    for (int i = 0; i < 10; i++)
                     {
                         Console.WriteLine(" Method 1");
                         // Do something
