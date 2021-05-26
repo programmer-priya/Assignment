@@ -5,6 +5,7 @@ namespace AssignmentApp
 {
     class Program
     {
+        //here we create two method which is not depend on each other.
         
             static void Main(string[] args)
             {
@@ -12,7 +13,7 @@ namespace AssignmentApp
                 Method2();
                 Console.ReadKey();
             }
-
+// Here we use async method so that method2 will not wait for complition of method1. the return type of this method is Task
             public static async Task Method1()
             {
                 await Task.Run(() =>
